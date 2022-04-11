@@ -1,11 +1,14 @@
 import React from "react"
 
+import Header from './components/Header/Header'
+import Footer from "./components/Footer/Footer";
+
 const App = () => {
 
-    return(
+    return( 
         <div className="ui-wrapper">
 
-      <header>header</header>
+      <Header />
 
       <div className="ui-content-wrapper">
 
@@ -16,7 +19,7 @@ const App = () => {
         </section>
       </div>
 
-      <footer>footer</footer>
+      <Footer />
     </div>
     )
     
