@@ -50,14 +50,29 @@ const App = () => {
            <Row itemsCenter>
              <Avatar onClick={handleAvatarClick} />
              <div>
-               <Title>Hello Title</Title>
+               <Title>Ivan Ivanov</Title>
                <Descr>Hello Description</Descr>
              </div>
             </Row>
 
           <Row>
-            <Sidebar>Sidebar</Sidebar>
-            <Content>Content</Content>
+            <Sidebar>
+               <Title size='3'>About me:</Title>
+               <Descr>Frontend developer</Descr>
+               <Descr isSecondary>Netherlands, DC</Descr>
+
+               <Descr isPrimary style={{marginTop: '2rem'}}>yrDream@gmail.com</Descr>
+               <Descr isPrimary>+31 954 23 21 244</Descr>
+            </Sidebar>
+            <Content>
+               <Title size='3' isUppercase>Education:</Title>
+               <Descr>Stanford University - BS Electrical Engineering</Descr>
+
+               <Title size='3'  isUppercase style={{marginTop:'3.6rem'}}>Work Experience:</Title>
+               <Descr>Solutions Architect, Stripe.</Descr>
+
+               <Title size='3'  isUppercase style={{marginTop:'3rem'}}>Skills:</Title>
+            </Content>
           </Row>
 
           </div>

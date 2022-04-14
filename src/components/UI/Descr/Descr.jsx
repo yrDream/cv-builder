@@ -11,8 +11,12 @@ const Descr = ({ isPrimary, isSecondary, className, children, ...attrs }) => {
         isSecondary: isSecondary,
     })
     return (
-        <p className={classes} {...attrs}>
-            {children}
+        <p className={classes}
+        contentEditable
+        suppressContentEditableWarning
+        spellCheck={false}
+        {...attrs}
+        > {children}
         </p>
     )
 };
