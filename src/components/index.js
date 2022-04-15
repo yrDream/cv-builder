@@ -6,6 +6,7 @@ export {default as Footer} from './Footer'
 // UI components:
 
 export {default as Avatar} from './UI/Avatar'
+export {default as Range} from './UI/Range'
 
 // layouts:
 export {default as Title} from './UI/Title'
