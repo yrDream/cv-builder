@@ -6,7 +6,7 @@ const Footer = () => {
     return(
         <footer className='Footer'>
             <div className="ui-container">
-                <a className='ui-link' target='_blank' href="#">GitHub</a>
+                <a className='ui-link' target='_blank' href="https://github.com/yrDream">GitHub</a>
             </div>
         </footer>
     );
