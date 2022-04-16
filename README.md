@@ -1,6 +1,6 @@
-##The site that was created as a result of the work on the guides.
+## The site that was created as a result of the work on the guides.
 
-##Technology stack:
+### Technology stack:
 
 1. react
 2. sass
