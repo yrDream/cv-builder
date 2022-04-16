@@ -8,3 +8,6 @@
 4. react-to-print
 5. prop-types
 6. styled-components
+
+
+## View site: https://cv-builder-new.herokuapp.com
